@@ -1,10 +1,15 @@
 # Set up Laravel with Docker
+Docker,Dockerをインストールします。
 
+https://docs.docker.com/docker-for-windows/install
+
+https://docs.docker.com/docker-for-mac/install
 
 こちらのリポジトリを、cloneします。
 ```
-$ git clone https://github.com:Mitsuya-Sora/set_up_laravel_with_docker
+$ git clone git@github.com:Mitsuya-Sora/set_up_laravel_with_docker.git
 ```
+コンテナを起動し、初期設定をします。
 ```
 $ cd set_up_laravel_with_docker
 $ docker-compose up -d --build
